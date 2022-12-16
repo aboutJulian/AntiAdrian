@@ -1,0 +1,18 @@
+name: antiadrian
+main: com.aboutjulian.antiadrian.Plugin
+version: 0.0.1
+api-version: 1.15
+description: Fickt Adrian in den Arsch
+commands:
+  aa:
+    description: Removes or adds a player to the muted list
+    usage: /aa remove <username> or /aa add <username>
+    permission: aa.admin
+    remove:
+      description: Removes a player from the muted list
+      usage: /aa remove <username>
+      permission: aa.admin
+    add:
+      description: Adds a player to the muted list
+      usage: /aa add <username>
+      permission: aa.admin
